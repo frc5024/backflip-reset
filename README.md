@@ -87,4 +87,12 @@ ftp://172.22.11.2
 
 You are now accessing the robot's internal filesystem. Once again, be careful. Navigate to `home` then `lvuser`.
 
-Somewhere in this area you should see a `.jar` file (or a few). Delete them, then paste [this file]() into the folder.
+Somewhere in this area you should see a `.jar` file (or a few). Delete them, then paste [this file](https://github.com/frc5024/backflip-reset/raw/master/firmware/roborio/InfiniteRecharge.jar) into the folder. There should also be a file in that folder called `robotCommand`. Open it in a text editor, and verify that it mentions `InfiniteRecharge.jar` somewhere. If it does not, you'll need to change the jar file name in the file to match the name of the file you downloaded, then save it.
+
+You can now close explorer, go back to PuTTY, and run the final command:
+
+```sh
+/usr/local/frc/bin/frcKillRobot.sh -t -r
+```
+
+Then you should see the robot restart, and everything should be good to go. PuTTY can be closed.
