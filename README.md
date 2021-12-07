@@ -33,7 +33,7 @@ After running the utility, you can follow WPI's guide on flashing your router st
 |-------------|---------------------|
 | Team Number | 5024                |
 | Robot Name  | Darth Raider        |
-| WPI Key     | `raiderrobotics`    |
+| WPA Key     | `raiderrobotics`    |
 | Firewall    | Disabled            |
 | BW Limit    | Disabled            |
 | Radio       | OpenMesh            |
